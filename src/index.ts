@@ -4,16 +4,16 @@ import DataStore from './DataStore'
 
 class MLIFFXStore {
 	@observable
+	public isInit: boolean = false
+
+	@observable
 	public userProfile: DataStore<Profile>
 
 	@observable
 	public accessToken: DataStore<string>
 
 	@observable
-	private error: Error
-
-	@observable
-	private isInit: boolean = false
+	public error: Error
 
 	@action
 	public init() {
