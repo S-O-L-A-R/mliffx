@@ -1,6 +1,6 @@
 {
   "name": "mliffx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LINE Frontend Framework in MobX store",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
